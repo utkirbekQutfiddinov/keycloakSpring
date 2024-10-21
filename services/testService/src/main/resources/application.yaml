@@ -1,0 +1,14 @@
+spring:
+  application:
+   name: testService
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:8080/realms/pdpmarket
+
+server:
+  port: 8081
+
+
+
